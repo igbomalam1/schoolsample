@@ -1,0 +1,282 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 15px;
+} */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Dark text for better readability */
+}
+
+.navbar {
+    background-color: #001f3f; /* Navy blue background for navbar */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important; /* White text for navbar items */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #001f3f; /* Navy blue for headings */
+}
+
+.lead {
+    color: #555; /* Slightly lighter grey for lead text */
+}
+
+.media-body h5, .media-body h6 {
+    color: #001f3f; /* Navy blue for media headings */
+}
+
+.media img {
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.list-group-item {
+    border: none; /* Remove borders from list group items */
+    color: #001f3f; /* Navy blue text for list items */
+    background-color: #e9ecef; /* Light grey background for list items */
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #001f3f; /* Navy blue background on hover */
+    color: #fff; /* White text on hover */
+}
+
+.blockquote {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* White text for blockquotes */
+}
+
+.blockquote p {
+    color: #fff; /* Ensure blockquote text is white */
+}
+
+.blockquote footer {
+    color: #ccc; /* Light grey for blockquote footer */
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #001f3f; /* Navy blue background */
+    color: #fff; /* White text */
+}
+
+footer h5 {
+    color: #fff; /* White headings */
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #adb5bd; /* Light grey text on hover */
+}
+
+hr {
+    margin: 0;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.carousel-caption blockquote {
+    color: #fff; /* White text */
+}
+
+.carousel-caption footer {
+    color: #ccc; /* Light grey text */
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 0.9rem;
+    }
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.carousel-caption blockquote {
+    color: #fff; /* White text */
+}
+
+.carousel-caption footer {
+    color: #ccc; /* Light grey text */
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 0.9rem;
+    }
+}
+
+.content-box {
+    border: 2px solid #001f3f; /* Navy blue border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.col-md-6 img {
+    border-radius: 10px; /* Ensure image has matching rounded corners */
+}
+
+
+/* Ensure image and text container have the same height */
+.row.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.content-box {
+    border: 2px solid #001f3f; /* Navy blue border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background for contrast */
+    height: 100%; /* Make the content box fill the height of the column */
+}
+
+.content-image {
+    border-radius: 10px; /* Ensure image has matching rounded corners */
+    height: 100%; /* Make the image fill the height of the column */
+    object-fit: cover; /* Ensure the image scales correctly */
+}
+
+.content-box {
+    border: 2px solid #001f3f; /* Navy blue border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+.btn-primary {
+    background-color: #001f3f; /* Navy blue button */
+    border-color: #001f3f; /* Navy blue border */
+    margin-top: 10px; /* Adjust margin for button */
+}
+
+.btn-primary:hover {
+    background-color: #003366; /* Darker navy blue on hover */
+    border-color: #003366; /* Darker navy blue border on hover */
+}
+
+.nav-link .active {
+    color: aqua;
+}
+
+#experience .row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+#experience .col-lg-6 {
+    flex-basis: 50%;
+}
+
+#experience img {
+    margin-bottom: 20px;
+  }
+  
+  #experience p {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Alternate the image and description sides */
+  #experience .row:nth-child(even) .col-lg-6:first-child {
+    order: 2;
+  }
+  
+  #experience .row:nth-child(even) .col-lg-6:last-child {
+    order: 1;
+}
+
+.stdd {
+    width: 50%;
+    border-radius: 25px;
+  }
+
+  /* Popup container - can be a fixed position */
+.popup-container {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Popup content */
+  .popup-content {
+    background-color: aliceblue;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.social-icon {
+    color: #28a745;
+}  
